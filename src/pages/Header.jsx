@@ -48,6 +48,7 @@ const Header = () => {
                 </Link>
 
                 {user ? (
+            //if user is logged in then UI makes some changes to show header differently and is Its not means user is not logged in then UI is more familiar to go on the different side of showcasing
                     <>
                         <div className='flex sm:justify-between justify-end items-center w-[70%]'>
                             <div className='flex items-center md:gap-8 md:pl-[2vw]'>
